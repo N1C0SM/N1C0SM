@@ -227,26 +227,17 @@
                     </p>
                 </div>
 
-                <form class="contact-form" action="mailto:nicolassanmarcos4@gmail.com" method="post">
-                    <label>
-                        Nombre
-                        <input type="text" name="name" required>
-                    </label>
 
-                    <label>
-                        Email
-                        <input type="email" name="email" required>
-                    </label>
-
-                    <label>
-                        Proyecto o mensaje
-                        <textarea name="message" required></textarea>
-                    </label>
-
-                    <button type="submit" class="btn primary full">
-                        Solicitar presupuesto
-                    </button>
-                </form>
+                <form class="contact-form" action="https://api.web3forms.com/submit" method="POST">
+  <input type="hidden" name="access_key" value="a9f05bac-93f7-4a39-ad09-21f9da007e00">
+  <label for="name">Nombre</label>
+  <input type="text" name="name" required>
+  <label for="email">Email</label>
+  <input type="email" name="email" required>
+  <label for="Mensaje">Proyecto o mensaje</label>
+  <textarea name="message" required></textarea>
+  <button type="submit" class="btn primary full">Solicitar presupuesto</button>
+</form>
             </div>
         </section>
 
