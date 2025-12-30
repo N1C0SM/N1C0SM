@@ -2,251 +2,130 @@
 <html lang="es">
 <head>
     <meta charset="UTF-8">
-    <title>N1C0 | Desarrollo de Páginas Web</title>
+    <title>Currículum Vitae - N1C0</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="https://avatars.githubusercontent.com/u/83534863?s=400">
     <link rel="stylesheet" href="../css/styles.css">
+    <style>
+        .cv-container {
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 2rem;
+            background: var(--card);
+            border: 1px solid var(--border);
+            border-radius: 22px;
+            box-shadow: var(--shadow);
+        }
+        .cv-header {
+            text-align: center;
+            margin-bottom: 2rem;
+        }
+        .cv-section {
+            margin-bottom: 2rem;
+        }
+        .cv-section h2 {
+            color: var(--accent);
+            border-bottom: 1px solid var(--border);
+            padding-bottom: 0.5rem;
+        }
+        .cv-item {
+            margin-bottom: 1rem;
+        }
+        .cv-skills {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 0.5rem;
+        }
+        .skill-chip {
+            background: var(--accent-soft);
+            color: var(--accent);
+            padding: 0.25rem 0.5rem;
+            border-radius: 999px;
+            font-size: 0.9rem;
+        }
+    </style>
 </head>
 <body>
 
-<div class="page">
-
-    <!-- HERO -->
-    <header class="hero">
-        <div class="hero__content">
-            <p class="pill">Disponible para proyectos web</p>
-
-            <h1>Hola, soy N1C0</h1>
-            <p class="hero__role">Desarrollador de Páginas Web</p>
-
-            <p class="hero__summary">
-                Diseño y desarrollo páginas web rápidas, claras y optimizadas para negocios y profesionales.
-                Me enfoco en webs que se entienden fácil, cargan rápido y transmiten confianza.
-            </p>
-
-            <div class="hero__meta">
-                <div class="meta-card">
-                    <span class="label">Especialidad</span>
-                    <strong>Páginas web profesionales</strong>
-                </div>
-                <div class="meta-card">
-                    <span class="label">Experiencia</span>
-                    <strong>+2 años en proyectos web</strong>
-                </div>
-                <div class="meta-card">
-                    <span class="label">Ubicación</span>
-                    <strong>España · Remoto</strong>
-                </div>
-            </div>
-
-            <div class="hero__actions">
-                <a href="mailto:nicolassanmarcos4@gmail.com" class="btn primary">
-                    Cuéntame tu proyecto
-                </a>
-                <a href="https://github.com/N1C0SM" target="_blank" rel="noopener" class="btn ghost">
-                    Ver GitHub
-                </a>
-            </div>
-        </div>
-
-        <div class="hero__photo">
-            <div class="photo-frame">
-                <img src="https://avatars.githubusercontent.com/u/83534863?s=400" alt="Foto de N1C0">
-            </div>
-            <div class="badge-card">
-                <p>Stack principal</p>
-                <div class="chip">HTML</div>
-                <div class="chip">CSS</div>
-                <div class="chip">JavaScript</div>
-                <div class="chip">PHP</div>
-                <div class="chip">MySQL</div>
-            </div>
+<div class="cv-container">
+    <header class="cv-header">
+        <h1>Nicolás San Marcos</h1>
+        <p class="hero__role">Desarrollador de Páginas Web</p>
+        <p>España · Remoto</p>
+        <p>Email: <a href="mailto:nicolassanmarcos4@gmail.com">nicolassanmarcos4@gmail.com</a> | GitHub: <a href="https://github.com/N1C0SM" target="_blank">github.com/N1C0SM</a></p>
+        <div class="hero__actions" style="justify-content: center;">
+            <a href="portafolio.html" class="btn ghost">Ver Portafolio</a>
         </div>
     </header>
 
-    <main>
+    <section class="cv-section">
+        <h2>Resumen Profesional</h2>
+        <p>Diseño y desarrollo páginas web rápidas, claras y optimizadas para negocios y profesionales. Me enfoco en webs que se entienden fácil, cargan rápido y transmiten confianza. Ayudo a negocios y proyectos personales a tener una página web profesional, clara y fácil de mantener, sin complicaciones técnicas innecesarias.</p>
+    </section>
 
-        <!-- SOBRE MÍ -->
-        <section class="panel about">
-            <div class="section-head">
-                <p class="eyebrow">Perfil</p>
-                <h3>Sobre mí</h3>
-            </div>
+    <section class="cv-section">
+        <h2>Experiencia</h2>
+        <div class="cv-item">
+            <h3>Desarrollador Web</h3>
+            <p class="muted">+2 años en proyectos web</p>
+            <p>Desarrollo de páginas corporativas, landing pages y webs informativas adaptadas a móvil, pensadas para comunicar bien y generar confianza. Diseño simple, código limpio y solo lo necesario. Nada de webs pesadas ni soluciones sobrecargadas.</p>
+        </div>
+    </section>
 
-            <p class="lead">
-                Ayudo a negocios y proyectos personales a tener una página web profesional,
-                clara y fácil de mantener, sin complicaciones técnicas innecesarias.
-            </p>
+    <section class="cv-section">
+        <h2>Habilidades Técnicas</h2>
+        <div class="cv-skills">
+            <span class="skill-chip">HTML</span>
+            <span class="skill-chip">CSS</span>
+            <span class="skill-chip">JavaScript</span>
+            <span class="skill-chip">PHP</span>
+            <span class="skill-chip">MySQL</span>
+            <span class="skill-chip">Diseño Responsive</span>
+            <span class="skill-chip">Accesibilidad</span>
+            <span class="skill-chip">Optimización de Carga</span>
+            <span class="skill-chip">Formularios</span>
+            <span class="skill-chip">Autenticación Básica</span>
+        </div>
+    </section>
 
-            <div class="list-grid">
-                <div class="list-card">
-                    <p class="label">Qué hago</p>
-                    <p>
-                        Páginas corporativas, landing pages y webs informativas adaptadas a móvil,
-                        pensadas para comunicar bien y generar confianza.
-                    </p>
-                </div>
+    <section class="cv-section">
+        <h2>Servicios</h2>
+        <ul>
+            <li><strong>Desarrollo Web:</strong> HTML & CSS, JavaScript, Diseño responsive, Accesibilidad, Optimización de carga</li>
+            <li><strong>Backend Simple:</strong> PHP, Formularios, Autenticación básica, MySQL</li>
+            <li><strong>Mantenimiento:</strong> Actualizaciones, Mejoras de rendimiento, Corrección de errores</li>
+        </ul>
+    </section>
 
-                <div class="list-card">
-                    <p class="label">Cómo trabajo</p>
-                    <p>
-                        Diseño simple, código limpio y solo lo necesario.
-                        Nada de webs pesadas ni soluciones sobrecargadas.
-                    </p>
-                </div>
+    <section class="cv-section">
+        <h2>Proyectos Destacados</h2>
+        <div class="cv-item">
+            <h3>Herramienta Web Interactiva</h3>
+            <p class="muted">Proyecto Frontend · 2023</p>
+            <p>Aplicación web ligera diseñada para ofrecer una experiencia clara, accesible y consistente en escritorio y móvil.</p>
+            <ul>
+                <li>Validación de datos y manejo de errores.</li>
+                <li>Navegación por teclado y foco visible.</li>
+                <li>Código modular y fácil de mantener.</li>
+            </ul>
+            <p><strong>Rol:</strong> Diseño y desarrollo frontend</p>
+        </div>
+        <div class="cv-item">
+            <h3>Aplicación Web de Gestión Simple</h3>
+            <p class="muted">Productividad · 2023</p>
+            <p>Web de gestión enfocada en rapidez de uso y claridad, con persistencia local y sin dependencias externas.</p>
+            <ul>
+                <li>Creación, edición y eliminación de elementos.</li>
+                <li>Filtros y contador en tiempo real.</li>
+                <li>Buen rendimiento en dispositivos móviles.</li>
+            </ul>
+            <p><strong>Rol:</strong> Frontend y lógica de interfaz</p>
+        </div>
+    </section>
 
-                <div class="list-card">
-                    <p class="label">Resultado</p>
-                    <p>
-                        Webs rápidas, seguras y fáciles de actualizar,
-                        preparadas para crecer con el proyecto.
-                    </p>
-                </div>
-            </div>
-        </section>
-
-        <!-- COMPETENCIAS -->
-        <section class="panel tech">
-            <div class="section-head">
-                <p class="eyebrow">Servicios</p>
-                <h3>Qué puedo desarrollar</h3>
-            </div>
-
-            <div class="tech-grid">
-                <div class="tech-card">
-                    <p class="label">Desarrollo web</p>
-                    <div class="chips">
-                        <span class="chip">HTML & CSS</span>
-                        <span class="chip">JavaScript</span>
-                        <span class="chip">Diseño responsive</span>
-                        <span class="chip">Accesibilidad</span>
-                        <span class="chip">Optimización de carga</span>
-                    </div>
-                </div>
-
-                <div class="tech-card">
-                    <p class="label">Backend simple</p>
-                    <div class="chips">
-                        <span class="chip">PHP</span>
-                        <span class="chip">Formularios</span>
-                        <span class="chip">Autenticación básica</span>
-                        <span class="chip">MySQL</span>
-                    </div>
-                </div>
-
-                <div class="tech-card">
-                    <p class="label">Mantenimiento</p>
-                    <div class="chips">
-                        <span class="chip">Actualizaciones</span>
-                        <span class="chip">Mejoras de rendimiento</span>
-                        <span class="chip">Corrección de errores</span>
-                    </div>
-                </div>
-            </div>
-        </section>
-
-        <!-- PROYECTOS -->
-        <section class="panel projects">
-            <div class="section-head">
-                <p class="eyebrow">Ejemplos</p>
-                <h3>Proyectos</h3>
-            </div>
-
-            <div class="timeline">
-
-                <article class="project-card">
-                    <div class="project-header">
-                        <div>
-                            <h4>Herramienta web interactiva</h4>
-                            <p class="muted">Proyecto frontend · 2023</p>
-                        </div>
-                        <span class="chip">HTML / CSS / JS</span>
-                    </div>
-
-                    <p class="project-body">
-                        Aplicación web ligera diseñada para ofrecer una experiencia clara,
-                        accesible y consistente en escritorio y móvil.
-                    </p>
-
-                    <ul class="project-points">
-                        <li>Validación de datos y manejo de errores.</li>
-                        <li>Navegación por teclado y foco visible.</li>
-                        <li>Código modular y fácil de mantener.</li>
-                    </ul>
-
-                    <div class="project-footer">
-                        <span class="label">Rol</span>
-                        <span>Diseño y desarrollo frontend</span>
-                    </div>
-                </article>
-
-                <article class="project-card">
-                    <div class="project-header">
-                        <div>
-                            <h4>Aplicación web de gestión simple</h4>
-                            <p class="muted">Productividad · 2023</p>
-                        </div>
-                        <span class="chip">HTML / CSS / JS</span>
-                    </div>
-
-                    <p class="project-body">
-                        Web de gestión enfocada en rapidez de uso y claridad,
-                        con persistencia local y sin dependencias externas.
-                    </p>
-
-                    <ul class="project-points">
-                        <li>Creación, edición y eliminación de elementos.</li>
-                        <li>Filtros y contador en tiempo real.</li>
-                        <li>Buen rendimiento en dispositivos móviles.</li>
-                    </ul>
-
-                    <div class="project-footer">
-                        <span class="label">Rol</span>
-                        <span>Frontend y lógica de interfaz</span>
-                    </div>
-                </article>
-
-            </div>
-        </section>
-
-        <!-- CONTACTO -->
-        <section class="panel contact">
-            <div class="section-head">
-                <p class="eyebrow">Contacto</p>
-                <h3>¿Necesitas una página web?</h3>
-            </div>
-
-            <div class="contact-grid">
-                <div>
-                    <p class="lead">
-                        Escríbeme y cuéntame qué tipo de web necesitas.
-                        Te responderé con una propuesta clara y sin compromiso.
-                    </p>
-                    <p class="muted">
-                        Email: <a href="mailto:nicolassanmarcos4@gmail.com">nicolassanmarcos4@gmail.com</a><br>
-                        GitHub: <a href="https://github.com/N1C0SM" target="_blank" rel="noopener">github.com/N1C0SM</a>
-                    </p>
-                </div>
-
-
-                <form class="contact-form" action="https://api.web3forms.com/submit" method="POST">
-  <input type="hidden" name="access_key" value="a9f05bac-93f7-4a39-ad09-21f9da007e00">
-  <label for="name">Nombre</label>
-  <input type="text" name="name" required>
-  <label for="email">Email</label>
-  <input type="email" name="email" required>
-  <label for="Mensaje">Proyecto o mensaje</label>
-  <textarea name="message" required></textarea>
-  <button type="submit" class="btn primary full">Solicitar presupuesto</button>
-</form>
-            </div>
-        </section>
-
-    </main>
-
-    <footer class="footer">
-        <p>© 2025 N1C0 · Desarrollo de Páginas Web</p>
+    <footer class="cv-section">
+        <p>Disponible para proyectos web. Escríbeme para discutir tu proyecto.</p>
     </footer>
-
 </div>
 
 </body>
