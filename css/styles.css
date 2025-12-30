@@ -376,6 +376,22 @@ h3 {
     padding: 1rem 0;
 }
 
+.service-category {
+    margin-bottom: 2rem;
+}
+
+.service-category h4 {
+    font-size: 1.2rem;
+    margin-bottom: 0.5rem;
+    color: var(--text);
+}
+
+.service-category p {
+    margin: 0.2rem 0;
+    color: var(--muted);
+    font-size: 0.95rem;
+}
+
 @media (max-width: 900px) {
     .hero {
         grid-template-columns: 1fr;

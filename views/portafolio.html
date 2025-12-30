@@ -16,7 +16,7 @@
         <div class="hero__content">
             <p class="pill">Disponible para proyectos web</p>
 
-            <h1>Hola, soy N1C0</h1>
+            <h1 id="portfolio-name">Hola, soy N1C0</h1>
             <p class="hero__role">Desarrollador de Páginas Web</p>
 
             <p class="hero__summary">
@@ -31,7 +31,7 @@
                 </div>
                 <div class="meta-card">
                     <span class="label">Experiencia</span>
-                    <strong>+2 años en proyectos web</strong>
+                    <strong id="experience-years">+2 años en proyectos web</strong>
                 </div>
                 <div class="meta-card">
                     <span class="label">Ubicación</span>
@@ -54,15 +54,13 @@
 
         <div class="hero__photo">
             <div class="photo-frame">
-                <img src="https://avatars.githubusercontent.com/u/83534863?s=400" alt="Foto de N1C0">
+                <img id="profile-photo" src="https://avatars.githubusercontent.com/u/83534863?s=400" alt="Foto de N1C0">
             </div>
             <div class="badge-card">
                 <p>Stack principal</p>
-                <div class="chip">HTML</div>
-                <div class="chip">CSS</div>
-                <div class="chip">JavaScript</div>
-                <div class="chip">PHP</div>
-                <div class="chip">MySQL</div>
+                <div id="main-stack">
+                    <!-- Stack will be loaded here -->
+                </div>
             </div>
         </div>
     </header>
@@ -115,36 +113,8 @@
                 <h3>Qué puedo desarrollar</h3>
             </div>
 
-            <div class="tech-grid">
-                <div class="tech-card">
-                    <p class="label">Desarrollo web</p>
-                    <div class="chips">
-                        <span class="chip">HTML & CSS</span>
-                        <span class="chip">JavaScript</span>
-                        <span class="chip">Diseño responsive</span>
-                        <span class="chip">Accesibilidad</span>
-                        <span class="chip">Optimización de carga</span>
-                    </div>
-                </div>
-
-                <div class="tech-card">
-                    <p class="label">Backend simple</p>
-                    <div class="chips">
-                        <span class="chip">PHP</span>
-                        <span class="chip">Formularios</span>
-                        <span class="chip">Autenticación básica</span>
-                        <span class="chip">MySQL</span>
-                    </div>
-                </div>
-
-                <div class="tech-card">
-                    <p class="label">Mantenimiento</p>
-                    <div class="chips">
-                        <span class="chip">Actualizaciones</span>
-                        <span class="chip">Mejoras de rendimiento</span>
-                        <span class="chip">Corrección de errores</span>
-                    </div>
-                </div>
+            <div class="tech-grid" id="tech-grid">
+                <!-- Tech cards will be loaded here -->
             </div>
         </section>
 
@@ -155,60 +125,8 @@
                 <h3>Proyectos</h3>
             </div>
 
-            <div class="timeline">
-
-                <article class="project-card">
-                    <div class="project-header">
-                        <div>
-                            <h4>Herramienta web interactiva</h4>
-                            <p class="muted">Proyecto frontend · 2023</p>
-                        </div>
-                        <span class="chip">HTML / CSS / JS</span>
-                    </div>
-
-                    <p class="project-body">
-                        Aplicación web ligera diseñada para ofrecer una experiencia clara,
-                        accesible y consistente en escritorio y móvil.
-                    </p>
-
-                    <ul class="project-points">
-                        <li>Validación de datos y manejo de errores.</li>
-                        <li>Navegación por teclado y foco visible.</li>
-                        <li>Código modular y fácil de mantener.</li>
-                    </ul>
-
-                    <div class="project-footer">
-                        <span class="label">Rol</span>
-                        <span>Diseño y desarrollo frontend</span>
-                    </div>
-                </article>
-
-                <article class="project-card">
-                    <div class="project-header">
-                        <div>
-                            <h4>Aplicación web de gestión simple</h4>
-                            <p class="muted">Productividad · 2023</p>
-                        </div>
-                        <span class="chip">HTML / CSS / JS</span>
-                    </div>
-
-                    <p class="project-body">
-                        Web de gestión enfocada en rapidez de uso y claridad,
-                        con persistencia local y sin dependencias externas.
-                    </p>
-
-                    <ul class="project-points">
-                        <li>Creación, edición y eliminación de elementos.</li>
-                        <li>Filtros y contador en tiempo real.</li>
-                        <li>Buen rendimiento en dispositivos móviles.</li>
-                    </ul>
-
-                    <div class="project-footer">
-                        <span class="label">Rol</span>
-                        <span>Frontend y lógica de interfaz</span>
-                    </div>
-                </article>
-
+            <div class="timeline" id="projects-container">
+                <!-- Projects will be loaded here -->
             </div>
         </section>
 
@@ -252,6 +170,14 @@
     </footer>
 
 </div>
+
+<script src="../js/script.js"></script>
+<script>
+loadUserData();
+loadMainStack();
+loadTechGrid();
+loadProjects();
+</script>
 
 </body>
 </html>
