@@ -1,4 +1,4 @@
-const GITHUB_TOKEN = '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';
+const GITHUB_TOKEN = '';
 const USERNAME = 'N1C0SM';
 
 async function fetchRepos() {
@@ -25,7 +25,6 @@ async function loadUserData() {
         document.getElementById('portfolio-name').textContent = `Hola, soy ${user.name || 'N1C0'}`;
         document.getElementById('profile-photo').src = user.avatar_url;
 
-        // Calculate experience
         const joinDate = new Date(user.created_at);
         const now = new Date();
         const years = Math.floor((now - joinDate) / (1000 * 60 * 60 * 24 * 365));
@@ -213,7 +212,6 @@ async function loadCVProjects() {
                     <h3><a href="${repo.html_url}" target="_blank">${repo.name}</a></h3>
                     <p class="muted">${repo.language || 'Proyecto'} · ${new Date(repo.updated_at).getFullYear()}</p>
                     <p>${repo.description}</p>
-                    <p><strong>Estrellas:</strong> ${repo.stargazers_count}</p>
                 `;
                 container.appendChild(item);
             }
@@ -222,3 +220,19 @@ async function loadCVProjects() {
         console.error('Error loading CV projects:', error);
     }
 }
+
+document.addEventListener('DOMContentLoaded', () => {
+    if (document.getElementById('portfolio-name')) {
+        loadUserData();
+        loadMainStack();
+        loadTechGrid();
+        loadProjects();
+    }
+
+    if (document.getElementById('user-name')) {
+        loadUserDataCV();
+        loadLanguages();
+        loadServices();
+        loadCVProjects();
+    }
+});
