@@ -1,62 +1,61 @@
-# N1C0SM 🚀
+<div align="center">
 
-> Portafolio y repositorio de proyectos web desarrollados por Nicolás San Marcos, con foco en diseño limpio, funcionalidad y resultados.
+# Nicolás San Marcos
 
----
+**Desarrollo web · Aplicaciones multiplataforma · IA aplicada**
 
-## 🔍 Sobre mí
+Conecto mi interés por la tecnología y el deporte creando proyectos propios.
 
-Soy desarrollador web freelance especializado en crear sitios y aplicaciones que combinan diseño moderno, experiencia de usuario y eficacia para ayudar a mis clientes a crecer online.
+[Autopilot](https://github.com/N1C0SM/Autopilot) · [AlphaSupps](https://github.com/N1C0SM/AlphaSupps) · [Contacto](https://wa.me/34689906638)
 
----
-
-## 🏆 Proyectos destacados
-
-### 1. [Taskify](https://n1c0sm.github.io/Taskify/) ✅
-
-App web minimalista para gestión rápida y sencilla de tareas diarias. Diseño limpio y sin distracciones.
-
-### 2. [MundoDeporte](https://n1c0sm.github.io/mundoDeporte/) 💪
-
-Portal dinámico sobre salud y fitness, con diseño enérgico y contenido pensado para motivar y captar deportistas.
-º
-
-### 3. [Calkify](https://n1c0sm.github.io/Calkify/) 🧮
-
-Calculadora online simple, rápida y elegante para operaciones básicas, con interfaz limpia y responsive.
-
-<!--
-### 4. [AlphaSupps](https://github.com/n1c0sm/alphasupps) 💊
-Tienda online especializada en suplementos de creatina y productos para optimizar el rendimiento deportivo.
-Aquí irá contenido más adelante
--->
+</div>
 
 ---
 
-## 🚀 Tecnologías y herramientas
+## Sobre mí
 
-- HTML5
-- CSS3 (Flexbox, Grid)
-- JavaScript (ES6+)
-- PHP
-- MySQL
-- Bootstrap (en algunos proyectos)
-- Git & GitHub para control de versiones y despliegue
+Soy Nicolás, desarrollador con formación en **Desarrollo de Aplicaciones Web (DAW)**. Me interesa construir aplicaciones completas: desde la interfaz que ve el usuario hasta los datos y los servicios que la hacen funcionar.
 
----
+El deporte es un hilo conductor de mis proyectos. En **Autopilot** trabajo con entrenamiento, nutrición e inteligencia artificial; en **AlphaSupps**, con comercio electrónico de suplementos. Mi siguiente dirección es seguir profundizando en desarrollo multiplataforma y aplicaciones móviles.
 
-## 📱 Diseño y experiencia
+## Lo que estoy construyendo
 
-Cada proyecto está optimizado para ser **responsive**, accesible y con una experiencia intuitiva, desde móviles hasta escritorio. Uso principios de diseño orientados a la conversión y psicología del color para maximizar impacto.
+### Autopilot · Entrenamiento, nutrición e IA
 
----
+Mi proyecto principal: una aplicación con área de usuario, herramientas para entrenadores y funciones de IA para análisis y generación de planes. El repositorio reúne la aplicación web, el backend y los proyectos móviles con Capacitor.
 
-## 📩 Contacto
+**React · TypeScript · Supabase · Tailwind CSS · Capacitor**
 
-¿Quieres una web que venda y convierta? Escríbeme por WhatsApp y hablamos:
+[Explorar el código](https://github.com/N1C0SM/Autopilot) · [Visitar la web](https://autopilotplan.com)
 
-[Contáctame por WhatsApp](https://wa.me/689906638)
+### AlphaSupps · Comercio electrónico deportivo
 
----
+Un proyecto con PHP y MySQL que reúne catálogo de suplementos, packs personalizados, suscripciones y administración. Aquí se puede ver mi trabajo con lógica de negocio, bases de datos e integración de servicios externos.
 
-_Gracias por visitar mi portafolio. ¡Vamos a crear algo increíble juntos! 👋_
+**PHP · MySQL · JavaScript · Stripe**
+
+[Explorar el código](https://github.com/N1C0SM/AlphaSupps)
+
+## Mis bases: proyectos de aprendizaje
+
+| Proyecto | En qué se centra | Enlaces |
+| --- | --- | --- |
+| **Taskify** | Eventos, manipulación del DOM y gestión de tareas con JavaScript. | [Código](https://github.com/N1C0SM/Taskify) · [Demo](https://n1c0sm.github.io/Taskify/) |
+| **MundoDeporte** | Maquetación con Bootstrap, navegación y contenido deportivo. | [Código](https://github.com/N1C0SM/MundoDeporte) · [Demo](https://n1c0sm.github.io/MundoDeporte/) |
+| **Calkify** | Prototipo de calculadora para practicar lógica e interacción. Evaluador pendiente de mejoras. | [Código](https://github.com/N1C0SM/Calkify) |
+
+## Tecnologías que uso
+
+| Área | Tecnologías presentes en mis proyectos |
+| --- | --- |
+| Interfaces | HTML, CSS, JavaScript, TypeScript, React |
+| Diseño | Tailwind CSS, shadcn/ui, Bootstrap |
+| Backend y datos | PHP, MySQL, Supabase |
+| Aplicaciones móviles | Capacitor · proyectos iOS y Android |
+| Herramientas e integraciones | Git, GitHub, Vite, Lovable, Stripe y servicios de IA |
+
+## Hablemos
+
+Puedes contactarme para hablar sobre mis proyectos o posibles colaboraciones.
+
+**[Escríbeme por WhatsApp](https://wa.me/34689906638)**
